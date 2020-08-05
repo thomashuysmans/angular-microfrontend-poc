@@ -7,7 +7,7 @@
     "build": "npm run build:projects && npm run build:shell",
     "build:shell": "ng build --project angular-microfrontend-poc",
     "build:projects": "npm run build:project-a",
-    "build:project-a": "ng build --prod --single-bundle --project project-a --output-hashing none --vendor-chunk false --output-path src/assets/projects/client-a",
+    "build:project-a": "ng build --prod --single-bundle true --project project-a --output-hashing none --vendor-chunk false --output-path src/assets/projects/project-a",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -21,9 +21,9 @@ export class AppComponent {
         clients: {
           "project-a": {
             loaded: false,
-            src: 'assets/projects/client-a/main.js',
-            element: 'client-a',
-            route: '/client-a'
+            src: 'assets/projects/project-a/main.js',
+            element: 'project-a-widget',
+            route: '/project-a'
           }
         }
     });
