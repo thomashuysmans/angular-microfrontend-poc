@@ -1,17 +1,32 @@
 
 
 <div class="wrapper">
-  <div class="sidebar" data-background-color="white" data-active-color="danger">
-    <p>hello</p>
+  <div class="sidebar">
+    <app-sidebar></app-sidebar>
       <!-- <sidebar-cmp></sidebar-cmp> -->
   </div>
-  <div class="main-panel">
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <app-navbar></app-navbar>  
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Here comes the content</h1>
+          <div id="content" class="content">
+            <!-- Micro Frontends go here -->
+          </div> 
+        </div>        
+      </div>
+    </div>
+   </div>
+  <!-- <div class="main-panel">
       <app-navbar></app-navbar>
       <div id="content" class="content">
-        <!-- Micro Frontends go here -->
+       
       </div>
   </div>
-</div>
+</div> -->
 
 
 
